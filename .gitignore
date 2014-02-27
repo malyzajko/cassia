@@ -1,0 +1,5 @@
+target/
+applications/lib/libDirectedRounding.so
+applications/lib/libQuadDouble.so
+applications/lib/macros_2.10.jar
+
