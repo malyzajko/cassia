@@ -1,16 +1,16 @@
-name := "Cassia"
+//name := "Cassia"
 
 version := "0.0"
 
-scalaVersion := "2.10.2"
+//scalaVersion := "2.10.2"
 
 scalaSource in Compile <<= baseDirectory(_ / "src")
 
 scalaSource in Test <<= baseDirectory(_ / "test")
 
-libraryDependencies ++= Seq(
-  "org.scala-lang" % "scala-reflect" % "2.10.2"
-)
+//libraryDependencies ++= Seq(
+//  "org.scala-lang" % "scala-reflect" % "2.10.2"
+//)
 
 scalacOptions += "-deprecation"
 
